@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Layout Responsivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            width: 25%;
+            background: #f1f1f1;
+            padding: 15px;
+        }
+
+        article {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+
+        aside {
+            float: left;
+            width: 25%;
+            background: #f1f1f1;
+            padding: 15px;
+        }
+
+        footer {
+            clear: both;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 600px) {
+            nav, article, aside {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site Responsivo</h1>
+</header>
+
+<nav>
+    <h2>Navegação</h2>
+    <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
+
+<article>
+    <h2>Conteúdo Principal</h2>
+    <p>Este é o conteúdo principal do site. Aqui você pode adicionar informações relevantes.</p>
+    <p>O layout se ajusta automaticamente para telas menores.</p>
+</article>
+
+<aside>
+    <h2>Informações Adicionais</h2>
+    <p>Coloque aqui informações úteis ou links importantes.</p>
+</aside>
+
+<footer>
+    <p>Copyright © 2025. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
